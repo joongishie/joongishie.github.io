@@ -1,0 +1,56 @@
+* {
+  text-align: center;
+}
+
+header {
+  background-color: #161b33;
+  color: #f1dac4;
+  font-size: 1.7em;
+	text-align: center;
+	padding: 10px;
+  font-family: serif, "Georgia";
+}
+
+h2 {
+  color: ##f1dac4;
+  font-size: 1.6em;
+	text-align: center;
+  font-family: serif, "Georgia";
+}
+
+h3 {
+  color: #a69cac;
+  font-size: 1.2em;
+	text-align: center;
+  font-family: serif, "Georgia";
+}
+
+main {
+  width: 1300px;
+  margin: auto;
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #f1dac4;
+  font-family: sans-serif, "Helvetica";
+}
+
+img {
+    max-width:35%;
+    height:auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
